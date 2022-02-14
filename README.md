@@ -20,6 +20,14 @@ The resulting f8.COM executable is completely identical to the original F80.COM
 
 Perhaps, based on this program, someone will find and fix the error of this compiler. I keep the disassembled program for later improvements. 
 
+I assume that for CP/M the FORTRAN compiler is 80 Ver. 3.4 Copyright 1978, 79, 80 (C) Microsoft Created: 19-Feb-85 was remade from the executable code of the FORTRAN-80 Ver compiler. 3.4 Copyright 1978, 79, 80 (C) Microsoft Created: 01-Dec-80 for TRS-80.
+
+It is most likely that the original compiler for TRS-80 was prepared directly by Microsoft. Disassembly of the source file F80.CMD showed the presence in the executable file of a set of traps placed by the authors of the program to complicate its disassembly. Fragments of superfluous code were excluded from the program modified for CP/M and a number of other actions were performed to overcome the protection against disassembly. A mistake was made in some place. 
+
+Who performed this transformation will remain unknown.
+
+However, I disassembled the compiler F80 Ver. 3.44 for CP/M. The file with the program has the name F.MAC. Compiling this file results in the creation of an executable file completely identical to the original program.
+
 Andrey Nikitin
 
 
