@@ -10,11 +10,11 @@ The file f80_ram.pdf shows the memory allocation during compiler operation and t
 
 The disassembled source program is partly commented and resides in a single f8.mac file. However, this does not prevent it from being assembled into an object file using the command
 
-m80 f8,f8=f8
+`m80 f8,f8=f8`
 
 and then compose
 
-l80 f8,f8/n/e
+`l80 f8,f8/n/e`
 
 The resulting f8.COM executable is completely identical to the original F80.COM
 
